@@ -289,7 +289,7 @@ function usual(&$out) {
 
         socket_write($socket, $in, strlen($in));
         
-        $out = socket_read($socket, 2048));
+        $out = socket_read($socket, 2048);
         $this->processMessage($id,$out);
 
         socket_close($socket);

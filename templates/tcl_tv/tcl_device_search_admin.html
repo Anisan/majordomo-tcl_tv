@@ -1,7 +1,7 @@
 
-<!-- table hisense_device search -->
+<!-- table tcl_device search -->
 <p>
-<a href="?view_mode=edit_hisense_device&data_source=<#DATA_SOURCE#>" class="btn btn-default"><i class="glyphicon glyphicon-plus"></i> <#LANG_ADD#></a>
+<a href="?view_mode=edit_tcl_device&data_source=<#DATA_SOURCE#>" class="btn btn-default"><i class="glyphicon glyphicon-plus"></i> <#LANG_ADD#></a>
 </p>
 <table width=100% border=0><tr>
 <td valign=top>
@@ -22,7 +22,7 @@
 [#endif PAGES#]
 <!-- / paging -->
 <!-- search results (list) -->
-<form action="?" method="post" name="frmList_hisense_device" style="padding:0px" class="form">
+<form action="?" method="post" name="frmList_tcl_device" style="padding:0px" class="form">
 <table  align=center class="table table-striped">
 <tbody>
 [#begin RESULT#]
@@ -52,8 +52,8 @@
  <td width="1%" nowrap>
   <div>
   [#if "<#ACTION#>"=="admin"#]
-   <a href="?data_source=<#DATA_SOURCE#>&view_mode=edit_hisense_device&id=[#ID#]" class="btn btn-default" title="Edit"><i class="glyphicon glyphicon-pencil"></i></a>
-    <a href="?data_source=<#DATA_SOURCE#>&view_mode=delete_hisense_device&id=[#ID#]" onClick="return confirm('Are you sure? Please confirm.')" class="btn btn-default" title="Delete"><i class="glyphicon glyphicon-remove"></i></a>
+   <a href="?data_source=<#DATA_SOURCE#>&view_mode=edit_tcl_device&id=[#ID#]" class="btn btn-default" title="Edit"><i class="glyphicon glyphicon-pencil"></i></a>
+    <a href="?data_source=<#DATA_SOURCE#>&view_mode=delete_tcl_device&id=[#ID#]" onClick="return confirm('Are you sure? Please confirm.')" class="btn btn-default" title="Delete"><i class="glyphicon glyphicon-remove"></i></a>
   [#endif ACTION#]
   </div>
  </td>
@@ -62,7 +62,7 @@
 </tbody>
 </table>
 <input type="hidden" name="data_source" value="<#DATA_SOURCE#>">
-<input type="hidden" name="view_mode" value="multiple_hisense_device">
+<input type="hidden" name="view_mode" value="multiple_tcl_device">
 </form>
 <!-- / search results (list) -->
 <!-- paging -->

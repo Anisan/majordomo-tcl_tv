@@ -34,7 +34,7 @@ while (1)
       $db->Disconnect();
       exit;
    }
-   sleep(1);
+   sleep(10);
 }
 
 $db->Disconnect();

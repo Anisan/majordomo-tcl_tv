@@ -1,5 +1,5 @@
 <div>
- 	<img src="/img/modules/hisense_tv.png"  width="24" height="24">&nbsp;Hisense TV
+ 	<img src="/img/modules/tcl_tv.png"  width="24" height="24">&nbsp;tcl TV
  &nbsp;
     
 	[#if CYCLERUN==1#]
@@ -35,14 +35,14 @@
 </form>
 </div-->
  <!-- action usual -->
- [#if DATA_SOURCE="hisense_device" || DATA_SOURCE=""#]
- <!-- table hisense_device search -->
- [#if VIEW_MODE="search_hisense_device" || VIEW_MODE=""#]
-  [#inc hisense_device_search_admin.html#]
+ [#if DATA_SOURCE="tcl_device" || DATA_SOURCE=""#]
+ <!-- table tcl_device search -->
+ [#if VIEW_MODE="search_tcl_device" || VIEW_MODE=""#]
+  [#inc tcl_device_search_admin.html#]
  [#endif VIEW_MODE#]
- <!-- / table hisense_device search -->
- <!-- table hisense_device edit -->
- [#if VIEW_MODE="edit_hisense_device"#]
+ <!-- / table tcl_device search -->
+ <!-- table tcl_device edit -->
+ [#if VIEW_MODE="edit_tcl_device"#]
    [#if ID!=""#]
    [#if TITLE!=""#]<h4>[#TITLE#]</h4>[#endif TITLE#]
 <ul class="nav nav-tabs">
@@ -56,38 +56,38 @@
 &nbsp;<br/>
    [#endif ID#]
    [#if TAB=""#]
-    [#inc hisense_device_edit_default.html#]
+    [#inc tcl_device_edit_default.html#]
    [#endif TAB#]
    [#if TAB="data"#]
-    [#inc hisense_device_edit_data.html#]
+    [#inc tcl_device_edit_data.html#]
    [#endif TAB#]
  [#endif VIEW_MODE#]
- <!-- / table hisense_device edit -->
- <!-- table hisense_device view --> 
- [#if VIEW_MODE="view_hisense_device"#]
+ <!-- / table tcl_device edit -->
+ <!-- table tcl_device view --> 
+ [#if VIEW_MODE="view_tcl_device"#]
    [#if TAB=""#]
-    [#inc hisense_device_view_default.html#]
+    [#inc tcl_device_view_default.html#]
    [#endif TAB#]
  [#endif VIEW_MODE#]
- <!-- / table hisense_device view -->
+ <!-- / table tcl_device view -->
  [#endif DATA_SOURCE#]
  <!-- action usual -->
- [#if DATA_SOURCE="hisense_device_data"#]
- <!-- table hisense_device_data search -->
- [#if VIEW_MODE="search_hisense_device_data" || VIEW_MODE=""#]
-  [#inc hisense_device_data_search_admin.html#]
+ [#if DATA_SOURCE="tcl_device_data"#]
+ <!-- table tcl_device_data search -->
+ [#if VIEW_MODE="search_tcl_device_data" || VIEW_MODE=""#]
+  [#inc tcl_device_data_search_admin.html#]
  [#endif VIEW_MODE#]
- <!-- / table hisense_device_data search -->
- <!-- table hisense_device_data edit -->
- [#if VIEW_MODE="edit_hisense_device_data"#]
-   [#inc hisense_device_data_edit.html#]
+ <!-- / table tcl_device_data search -->
+ <!-- table tcl_device_data edit -->
+ [#if VIEW_MODE="edit_tcl_device_data"#]
+   [#inc tcl_device_data_edit.html#]
  [#endif VIEW_MODE#]
- <!-- / table hisense_device_data edit -->
- <!-- table hisense_device_data view --> 
- [#if VIEW_MODE="view_hisense_device_data"#]
-   [#inc hisense_device_data_view.html#]
+ <!-- / table tcl_device_data edit -->
+ <!-- table tcl_device_data view --> 
+ [#if VIEW_MODE="view_tcl_device_data"#]
+   [#inc tcl_device_data_view.html#]
  [#endif VIEW_MODE#]
- <!-- / table hisense_device_data view -->
+ <!-- / table tcl_device_data view -->
  [#endif DATA_SOURCE#]
  
  <div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="about1" aria-hidden="true">
@@ -96,13 +96,13 @@
 		<div class="modal-content">
 			<div class="modal-header">
 				<button class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-				<h4 class="modal-title">Hisense TV</h4>
+				<h4 class="modal-title">tcl TV</h4>
 			</div>
 			<div class="modal-body">
 				<div class="float-right">
-					<img src="/img/modules/hisense_tv.png"  width="48" height="48">
+					<img src="/img/modules/tcl_tv.png"  width="48" height="48">
 				</div>
-                <p class="float-left"> Hisense Smart TV.<br>
+                <p class="float-left"> tcl Smart TV.<br>
 				Обсуждение модуля <a href="https://mjdm.ru/forum/viewtopic.php?f=5&t=6756" target="_blank">здесь</a>.<br>
 				</p>
 				<hr size="1">
